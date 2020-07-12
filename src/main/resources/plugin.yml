@@ -1,6 +1,7 @@
 name: Nope
 version: 1.0-SNAPSHOT
 main: net.williammck.nope.NopePlugin
+api-version: 1.16
 depend: [ProtocolLib]
 commands:
   nope:
