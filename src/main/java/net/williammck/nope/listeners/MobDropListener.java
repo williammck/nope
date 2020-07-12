@@ -19,7 +19,7 @@ public class MobDropListener implements Listener {
         if (e.getEntity() instanceof Enderman) {
             // Determine player "nope eligibility"
             LivingEntity mob = e.getEntity();
-            if (!util.isPlayerNopeEligible(mob.getKiller(), mob.getLocation())) return;
+            if (!util.isPlayerNopeEligible(mob.getKiller())) return;
 
             e.getDrops().clear();
         }

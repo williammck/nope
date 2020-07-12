@@ -8,7 +8,6 @@ import java.util.List;
 public class Configuration {
     private final Plugin plugin;
 
-    int RADIUS;
     List<String> NOPERS;
 
     Configuration(Plugin plugin) {
@@ -18,7 +17,6 @@ public class Configuration {
     public void load() {
         plugin.reloadConfig();
 
-        RADIUS = plugin.getConfig().getInt("settings.radius");
         NOPERS = plugin.getConfig().getStringList("state.nopers");
     }
 
