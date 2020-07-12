@@ -25,6 +25,7 @@ public class NopePlugin extends JavaPlugin {
         // Register ProtocolLib listeners
         ProtocolManager protocolManager = ProtocolLibrary.getProtocolManager();
         protocolManager.addPacketListener(new NamedSoundEffectListener(this, util));
+        protocolManager.addPacketListener(new EntityMetadataListener(this, util));
 
         // Register Bukkit commands
         getCommand("nope").setExecutor(new NopeCommand(config));
