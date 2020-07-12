@@ -1,0 +1,11 @@
+name: Nope
+version: 1.0-SNAPSHOT
+main: net.williammck.nope.NopePlugin
+depend: [ProtocolLib]
+commands:
+  nope:
+    description: Turn off Enderman drops and noises.
+    usage: /nope
+  yep:
+    description: Turn on Enderman drops and noises.
+    usage: /yep

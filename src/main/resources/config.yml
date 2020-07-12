@@ -1,0 +1,11 @@
+#
+# Nope Configuration
+#
+
+settings:
+  # What radius does the player need to be in for Nope to apply?
+  radius: 5
+
+# DO NOT MODIFY
+state:
+  nopers: []
